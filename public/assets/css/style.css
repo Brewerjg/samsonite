@@ -5632,3 +5632,7 @@ label {
 	justify-content: space-evenly;
 	border-radius: 9px;
 }
+.insta-img{
+	width: 100px;
+	height: 100px;
+}

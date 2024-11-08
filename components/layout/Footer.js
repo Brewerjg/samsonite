@@ -53,22 +53,22 @@ export default function Footer1() {
                                         <div className="footer-instagram">
                                             <ul className="list-wrap">
                                                 <li>
-                                                    <Link href="https://www.instagram.com/reel/C_-2R_9OkLp/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="/assets/img/instagram/instaTenn.png" alt="" /></Link>
+                                                    <Link href="https://www.instagram.com/reel/C_-2R_9OkLp/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img className="insta-img" src="/assets/img/instagram/instaTenn.png" alt="" /></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="https://www.instagram.com/reel/DAJSBaUuj6I/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="/assets/img/instagram/instaComm.png" alt="" /></Link>
+                                                    <Link href="https://www.instagram.com/reel/DAJSBaUuj6I/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img className="insta-img" src="/assets/img/instagram/instaComm.png" alt="" /></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="https://www.instagram.com/reel/DCFaHtfP5UU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="/assets/img/instagram/instaBrick.png" alt="" /></Link>
+                                                    <Link href="https://www.instagram.com/reel/DCFaHtfP5UU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img className="insta-img" src="/assets/img/instagram/instaBrick.png" alt="" /></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="https://www.instagram.com/reel/C7VjI1bulBj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="/assets/img/instagram/instaSam.png" alt="" /></Link>
+                                                    <Link href="https://www.instagram.com/reel/C7VjI1bulBj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img className="insta-img" src="/assets/img/instagram/instaSam.png" alt="" /></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="https://www.instagram.com/reel/C-YSQi5uvC8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="/assets/img/instagram/instaStain.png" alt="" /></Link>
+                                                    <Link href="https://www.instagram.com/reel/C-YSQi5uvC8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img className="insta-img" src="/assets/img/instagram/instaStain.png" alt="" /></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="https://www.instagram.com/reel/C1uwUguuMRC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="/assets/img/instagram/instaStem.png" alt="" /></Link>
+                                                    <Link href="https://www.instagram.com/reel/C1uwUguuMRC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img className="insta-img" src="/assets/img/instagram/instaStem.png" alt="" /></Link>
                                                 </li>
                                             </ul>
                                         </div>
