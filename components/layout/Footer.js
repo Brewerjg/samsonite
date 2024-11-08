@@ -4,7 +4,7 @@ export default function Footer1() {
     return (
         <>
             <footer>
-                <div className="footer-area footer-bg" data-background="/assets/img/water_swipe.jpg">
+                <div className="footer-area footer-bg" data-background="/assets/img/water_swi.jpg">
                     <div className="footer-top">
                         <div className="container">
                             <div className="row">
