@@ -27,7 +27,7 @@ export default function Contact() {
                                                     <i className="fas fa-phone-alt" />
                                                 </div>
                                                 <div className="content">
-                                                    <Link href="tel:0123456789">(501) 533-9213</Link>
+                                                    <Link href="tel:5015339213">(501) 533-9213</Link>
                                                 </div>
                                             </div>
                                         </li>

@@ -37,20 +37,13 @@ export default function Sidebar() {
                         <li><Link href="/services-details">Services Details</Link></li>
                     </ul>
                     <div className="dropdown-btn" onClick={() => handleToggle(2)}><span className="fas fa-angle-down" /></div></li>
-                <li className="active menu-item-has-children"><Link href="#">Pages</Link>
+                <li className="active menu-item-has-children"><Link href="/B&A">Before & After</Link>
                     <ul className="sub-menu" style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
                         <li><Link href="/project">Project Page</Link></li>
                         <li><Link href="/project-details">Project Details</Link></li>
-                        <li><Link href="/team">Our Team</Link></li>
-                        <li><Link href="/team-details">Team Details</Link></li>
-                        <li><Link href="/error">404 Error</Link></li>
+                        
                     </ul>
-                    <div className="dropdown-btn" onClick={() => handleToggle(3)}><span className="fas fa-angle-down" /></div></li>
-                <li className="menu-item-has-children"><Link href="#">Blog</Link>
-                    <ul className="sub-menu" style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>
-                        <li><Link href="/blog">Our Blog</Link></li>
-                        <li><Link href="/blog-details">Blog Details</Link></li>
-                    </ul>
+                    
                     <div className="dropdown-btn" onClick={() => handleToggle(4)}><span className="fas fa-angle-down" /></div></li>
                 <li><Link href="/contact">Contact</Link></li>
             </ul>

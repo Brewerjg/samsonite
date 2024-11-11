@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 512 512" fill="none">
+  <ellipse cx="301.61" cy="150.857" rx="15" ry="14.975" fill="white" stroke="white" stroke-width="0.5"/>
+  <ellipse cx="301.61" cy="83.28" rx="15" ry="14.975" fill="white" stroke="white" stroke-width="0.5"/>
+  <ellipse cx="301.61" cy="15.702" rx="15" ry="14.975" fill="white" stroke="white" stroke-width="0.5"/>
+  <ellipse cx="360.69" cy="152.909" rx="15" ry="14.975" fill="white" stroke="white" stroke-width="0.5"/>
+  <ellipse cx="360.69" cy="212.884" rx="15" ry="14.975" fill="white" stroke="white" stroke-width="0.5"/>
+  <ellipse cx="429.355" cy="212.884" rx="15" ry="14.975" fill="white" stroke="white" stroke-width="0.5"/>
+  <ellipse cx="497" cy="212.884" rx="15" ry="14.975" fill="white" stroke="white" stroke-width="0.5"/>
+  <ellipse cx="408.537" cy="105.141" rx="15" ry="14.975" fill="white" stroke="white" stroke-width="0.5"/>
+  <ellipse cx="456.385" cy="57.373" rx="15" ry="14.975" fill="white" stroke="white" stroke-width="0.5"/>
+  <path d="M208.477 269.907l-29.113-19.52c-3.159-2.118-5.464-5.301-6.498-8.975l-22.099-78.465c-4.051-14.575-17.252-24.475-32.048-24.475-1.035 0-2.075.048-3.123.147-20.352 1.914-34.201 21.647-29.178 41.575l22.645 88.899c2.707 10.626 9.293 19.837 18.448 25.8l45.704 29.768c5.422 3.511 11.51 5.196 17.531 5.196 10.226 0 20.265-4.855 26.562-13.867 10.555-15.107 6.55-36.005-8.831-46.083z" fill="white" stroke="white" stroke-width="0.5"/>
+  <path d="M294.078 201.399l-60.434 50.344c7.448 7.015 13.007 15.699 16.27 25.454l63.385-52.803c6.36-5.299 7.214-14.742 1.907-21.092-5.308-6.35-14.767-7.201-21.128-1.903z" fill="white" stroke="white" stroke-width="0.5"/>
+  <path d="M79.989 276.478l-11.188-43.921-14.475 43.027c-3.201 9.515-4.834 19.492-4.834 29.536v172.258c0 19.121 15.413 34.622 34.425 34.622 19.012 0 34.425-15.501 34.425-34.622v-147.925c0-1.565.04-3.128.119-4.687l-7.338-4.78c-15.502-10.096-26.559-25.548-31.134-43.508z" fill="white" stroke="white" stroke-width="0.5"/>
+  <path d="M59.916 148.462l-39.312 19.969c-19.624 9.968-26.552 34.699-14.991 53.505l22.694 36.915 27.339-81.262c-.882-9.936.596-19.906 4.27-29.127z" fill="white" stroke="white" stroke-width="0.5"/>
+  <path d="M186.417 359.663v7.039c0 24.533-15.978 45.392-38.076 52.771v30.96c38.822-8.133 68.076-42.562 68.076-83.731v-12.424c-7.962 3.598-16.696 5.538-25.671 5.538-1.448 0-2.891-.053-4.329-.153z" fill="white" stroke="white" stroke-width="0.5"/>
+  <ellipse cx="136.33" cy="54.677" rx="54.359" ry="54.677" fill="white" stroke="white" stroke-width="0.5"/>
+</svg>

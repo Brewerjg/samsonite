@@ -24,16 +24,15 @@ export default function Faq1() {
                     <div className="row justify-content-center">
                         <div className="col-lg-10">
                             <div className="section-title text-center mb-60">
-                                <span className="sub-title">Our Faqs</span>
-                                <h2 className="title">Have Any Questions  Answer?</h2>
+                                <h2 className="title">Frequently Asked Questions</h2>
                             </div>
                         </div>
                     </div>
                     <div className="row align-items-center justify-content-center">
                         <div className="col-xl-6 col-lg-10 order-0 order-xl-2">
                             <div className="faq-img-wrap">
-                                <img src="/assets/img/images/faq_img01.jpg" alt="" className="wow fadeInRight" data-wow-delay=".4s" />
-                                <img src="/assets/img/images/faq_img02.jpg" alt="" className="wow fadeInRight" data-wow-delay=".2s" />
+                                <img src="/assets/img/LduoWork.png" alt="" className="wow fadeInRight" data-wow-delay=".4s" />
+                                <img src="/assets/img/RduoWork.png" alt="" className="wow fadeInRight" data-wow-delay=".2s" />
                                 <div className="overlay-text wow fadeInUp" data-wow-delay=".6s">
                                     <h2 className="title">FAQ</h2>
                                 </div>

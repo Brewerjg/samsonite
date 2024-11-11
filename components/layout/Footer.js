@@ -7,48 +7,34 @@ export default function Footer1() {
                 <div className="footer-area footer-bg" data-background="/assets/img/water_swi.jpg">
                     <div className="footer-top">
                         <div className="container">
-                            <div className="row">
+                            <div className="row justify-content-center">
                                 <div className="col-xl-3 col-lg-4 col-md-7">
-                                    <div className="footer-widget">
+                                    <div className="footer-widget text-center">
                                         <h2 className="fw-title">About Us</h2>
                                         <div className="footer-content">
-                                            <p>There are many variations of passages of Lore Ipsum available, but the majori have alteration in some form, by injected humour, ondomised word which don't look</p>
+                                            <p>Samsonite Painting & More, LLC in Little Rock offers professional pressure washing and painting services to enhance both residential and commercial properties.</p>
                                             
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-xl-3 col-lg-4 col-md-5 col-sm-6">
-                                    <div className="footer-widget">
+                                    <div className="footer-widget text-center">
                                         <h2 className="fw-title">Our Services</h2>
                                         <div className="footer-link">
                                             <ul className="list-wrap">
-                                                <li><Link href="/project"><i className="fas fa-angle-double-right" />Single Ply Roofing</Link></li>
-                                                <li><Link href="/project"><i className="fas fa-angle-double-right" />Modified Roofing</Link></li>
-                                                <li><Link href="/project"><i className="fas fa-angle-double-right" />Built-Up Roofing</Link></li>
-                                                <li><Link href="/project"><i className="fas fa-angle-double-right" />Metal Roofing</Link></li>
-                                                <li><Link href="/project"><i className="fas fa-angle-double-right" />Vegetative Roofing</Link></li>
-                                                <li><Link href="/project"><i className="fas fa-angle-double-right" />Specialty Metal</Link></li>
+                                                <li><Link href="/project"><i className="fas fa-angle-double-right" />House Washing</Link></li>
+                                                <li><Link href="/project"><i className="fas fa-angle-double-right" />Roof Cleaning</Link></li>
+                                                <li><Link href="/project"><i className="fas fa-angle-double-right" />Commercial Washing</Link></li>
+                                                <li><Link href="/project"><i className="fas fa-angle-double-right" />Gutter Cleaning</Link></li>
+                                                <li><Link href="/project"><i className="fas fa-angle-double-right" />Window Washing</Link></li>
+                                                <li><Link href="/project"><i className="fas fa-angle-double-right" />Concrete Cleaning</Link></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6">
-                                    <div className="footer-widget">
-                                        <h2 className="fw-title">Quick Links</h2>
-                                        <div className="footer-link">
-                                            <ul className="list-wrap">
-                                                <li><Link href="/contact"><i className="fas fa-angle-double-right" />Terms  Conditions</Link></li>
-                                                <li><Link href="/contact"><i className="fas fa-angle-double-right" />Tax  Vat</Link></li>
-                                                <li><Link href="/contact"><i className="fas fa-angle-double-right" />Refund Policy</Link></li>
-                                                <li><Link href="/contact"><i className="fas fa-angle-double-right" />Typically Solutions</Link></li>
-                                                <li><Link href="/contact"><i className="fas fa-angle-double-right" />Our Process</Link></li>
-                                                <li><Link href="/contact"><i className="fas fa-angle-double-right" />Contact Us</Link></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                                 <div className="col-xl-4 col-lg-5 col-md-6">
-                                    <div className="footer-widget">
+                                    <div className="footer-widget text-center">
                                         <h2 className="fw-title">Instagram Posts</h2>
                                         <div className="footer-instagram">
                                             <ul className="list-wrap">

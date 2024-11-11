@@ -43,7 +43,7 @@ export default function Header({ headerCls, headerTop }) {
                                             <li><Link href="https://www.facebook.com/SamsonitePaintingAndMore"><i className="fab fa-facebook-f" /></Link></li>
                                             <li><Link href="https://www.linkedin.com/in/samsonite-painting-and-pressure-washing-llc-689b01248/?trk=public_post_feed-actor-name"><i className="fab fa-linkedin-in" /></Link></li>
                                             <li><Link href="https://www.instagram.com/samsonite_painting_and_more/?hl=en"><i className="fab fa-instagram" /></Link></li>
-                                            <li><Link href="#"><i className="fab fa-youtube" /></Link></li>
+                                            
                                         </ul>
                                     </div>
                                 </div>
@@ -61,10 +61,10 @@ export default function Header({ headerCls, headerTop }) {
                                 <div className="menu-wrap">
                                     <nav className="menu-nav">
                                         <div className="logo different-logo">
-                                            <Link href="/"><img src="/assets/img/logo/logo.png" alt="Logo" /></Link>
+                                            <Link href="/"><img src="/assets/img/logo/fbLogo.png" alt="Logo" /></Link>
                                         </div>
                                         <div className="logo d-none">
-                                            <Link href="/"><img src="/assets/img/logo/logo_02.png" alt="Logo" /></Link>
+                                            <Link href="/"><img src="/assets/img/logo/fbLogo.png" alt="Logo" /></Link>
                                         </div>
                                         <div className="navbar-wrap main-menu d-none d-lg-flex">
                                             <ul className="navigation">
@@ -81,15 +81,17 @@ export default function Header({ headerCls, headerTop }) {
                                                     <ul className="sub-menu">
                                                         <li><Link href="/services">Services Page</Link></li>
                                                         <li><Link href="/services-details">Services Details</Link></li>
+                                                        <li><Link href="/services-details">Services Details</Link></li>
+                                                        <li><Link href="/services-details">Services Details</Link></li>
+                                                        <li><Link href="/services-details">Services Details</Link></li>
+                                                        <li><Link href="/services-details">Services Details</Link></li>
                                                     </ul>
                                                 </li>
-                                                <li className="menu-item-has-children"><Link href="/#">Pages</Link>
+                                                <li className="menu-item-has-children"><Link href="/#">Before & After</Link>
                                                     <ul className="sub-menu">
                                                         <li><Link href="/project">Project Page</Link></li>
                                                         <li><Link href="/project-details">Project Details</Link></li>
-                                                        <li><Link href="/team">Our Team</Link></li>
-                                                        <li><Link href="/team-details">Team Details</Link></li>
-                                                        <li><Link href="/error">404 Error</Link></li>
+                                                        
                                                     </ul>
                                                 </li>
                                                 {/* <li className="menu-item-has-children"><Link href="/#">Blog</Link>
@@ -113,17 +115,16 @@ export default function Header({ headerCls, headerTop }) {
                                     <nav className="menu-box">
                                         <div className="close-btn" onClick={handleToggled}><i className="fas fa-times" /></div>
                                         <div className="nav-logo">
-                                            <Link href="/"><img src="/assets/img/logo/logo_02.png" alt="Logo" /></Link>
+                                            <Link href="/"><img src="/assets/img/logo/fbLogo.png" alt="Logo" /></Link>
                                         </div>
                                         <div className="menu-outer">
                                             <Sidebar />
                                         </div>
                                         <div className="social-links">
                                             <ul className="clearfix list-wrap">
-                                                <li><Link href="/#"><i className="fab fa-facebook-f" /></Link></li>
-                                                <li><Link href="/#"><i className="fab fa-instagram" /></Link></li>
-                                                <li><Link href="/#"><i className="fab fa-linkedin-in" /></Link></li>
-                                                <li><Link href="/#"><i className="fab fa-youtube" /></Link></li>
+                                                <li><Link href="https://www.facebook.com/SamsonitePaintingAndMore"><i className="fab fa-facebook-f" /></Link></li>
+                                                <li><Link href="https://www.instagram.com/samsonite_painting_and_more/?hl=en"><i className="fab fa-instagram" /></Link></li>
+                                                <li><Link href="https://www.linkedin.com/in/samsonite-painting-and-pressure-washing-llc-689b01248/?trk=public_post_feed-actor-name"><i className="fab fa-linkedin-in" /></Link></li>
                                             </ul>
                                         </div>
                                     </nav>

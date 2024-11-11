@@ -1,6 +1,7 @@
 import VideoPopup from "@/components/elements/VideoPopup"
 import Layout from "@/components/layout/Layout"
 import Brand3 from "@/components/sections/Brand3"
+import ContactForm from "@/components/sections/ContactForm"
 import Work1 from "@/components/sections/Work1"
 import Link from "next/link"
 import Slider from "react-slick"
@@ -30,10 +31,10 @@ export default function About() {
                                     <div className="about-experiences-wrap">
                                         <div className="experiences-item">
                                             <div className="icon">
-                                                <img src="/assets/img/icon/about_icon01.svg" alt="" />
+                                                <img src="/assets/img/icon/license.svg" alt="" />
                                             </div>
                                             <div className="content">
-                                                <h6 className="title">We have more than 10 years of experiences</h6>
+                                                <h6 className="title">Fully Licensed & Insured</h6>
                                             </div>
                                         </div>
                                         <div className="experiences-item">
@@ -41,7 +42,7 @@ export default function About() {
                                                 <img src="/assets/img/icon/about_icon02.svg" alt="" />
                                             </div>
                                             <div className="content">
-                                                <h6 className="title">We use professional and experienced person</h6>
+                                                <h6 className="title">Professional and Experienced</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -62,9 +63,9 @@ export default function About() {
                                     </p>
                                     <div className="about-list">
                                         <ul className="list-wrap">
-                                            <li><i className="fas fa-check" />32k Partners have worked us.</li>
-                                            <li><i className="fas fa-check" />Professional and experienced human resources.</li>
-                                            <li><i className="fas fa-check" />Provide the best roof services</li>
+                                            <li><i className="fas fa-check" />100+ 5 Star Reviews on Google</li>
+                                            <li><i className="fas fa-check" />Service with a Smile</li>
+                                            <li><i className="fas fa-check" />Free Quotes</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -75,48 +76,81 @@ export default function About() {
                 {/* about-area-end */}
                 {/* work-area */}
                 <Work1 />
-                {/* work-area-end */}
-                {/* history-area */}
-                <section className="history-area pt-120 pb-120">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-6">
-                                <div className="history-img-wrap">
-                                    <ul className="list-wrap">
-                                        <li>
-                                            <img src="/assets/img/images/history_img01.jpg" alt="" />
-                                        </li>
-                                        <li>
-                                            <img src="/assets/img/images/history_img02.jpg" alt="" />
-                                            <VideoPopup />
-                                        </li>
-                                        <li>
-                                            <img src="/assets/img/images/history_img03.jpg" alt="" />
-                                        </li>
-                                    </ul>
+                <div>
+                    {/* area-bg */}
+                    <div className="area-bg">
+                        <div className="area-background-img jarallax" data-background="/assets/img/apartCleaning.jpg" />
+                        {/* appointment-area */}
+                        <section className="appointment-area pt-115">
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-lg-12">
+                                        <div className="section-title white-title mb-60">
+                                            <span className="sub-title">Ready to Transform Your Property</span>
+                                            <h2 className="title">Contact Us Today!</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="appointment-inner" data-background="/assets/img/bg/appointment_bg.jpg">
+                                    <div className="row">
+                                        <div className="col-xl-7">
+                                            <div className="appointment-form">
+                                            <ContactForm />
+                                            </div>
+                                        </div>
+                                        <div className="col-xl-5">
+                                            <div className="appointment-img">
+                                                <img src="/assets/img/cjsOutdoorbg.png" alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6">
-                                <div className="history-content">
-                                    <div className="section-title mb-20">
-                                        <span className="sub-title">Our Roofing History</span>
-                                        <h2 className="title">Roofing when an unknown printer took to make type book</h2>
+                        </section>
+                        {/* appointment-area-end */}
+                    </div>
+                    {/* area-bg-end */}
+                    {/* support-area */}
+                    <section className="support-area pt-115 pb-70">
+                        <div className="container">
+                            <div className="row justify-content-center">
+                                <div className="col-xl-4 col-md-6">
+                                    <div className="support-item">
+                                        <div className="support-icon">
+                                            <img src="/assets/img/icon/support_icon01.svg" alt="" />
+                                        </div>
+                                        <div className="support-content">
+                                            <h4 className="title">Quick Response</h4>
+                                            <p>We'll respond within 24 hours.</p>
+                                        </div>
                                     </div>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majori our as have suffered alteration in some form, by injected humour, or randomised word which don't look even slightly believable.</p>
-                                    <div className="history-list">
-                                        <ul className="list-wrap">
-                                            <li><i className="fas fa-check-circle" />Technology management</li>
-                                            <li><i className="fas fa-check-circle" />Roofing Solutions</li>
-                                            <li><i className="fas fa-check-circle" />Modern Worker Working here</li>
-                                            <li><i className="fas fa-check-circle" />Quick Response</li>
-                                        </ul>
+                                </div>
+                                <div className="col-xl-4 col-md-6">
+                                    <div className="support-item">
+                                        <div className="support-icon">
+                                            <img src="/assets/img/icon/support_icon02.svg" alt="" />
+                                        </div>
+                                        <div className="support-content">
+                                            <h4 className="title">Free Quote</h4>
+                                            <p>As always, we offer free and transparent estimates.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-4 col-md-6">
+                                    <div className="support-item">
+                                        <div className="support-icon">
+                                            <img src="/assets/img/icon/support_icon03.svg" alt="" />
+                                        </div>
+                                        <div className="support-content">
+                                            <h4 className="title">Quick Response</h4>
+                                            <p>There are many variations of passages Ipsum available but the</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
-                {/* history-area-end */}
+                    </section>
+                </div>
                
 
 
