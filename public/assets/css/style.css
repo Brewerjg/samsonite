@@ -1084,7 +1084,7 @@ label {
 }
 .banner-tooltip-wrap {
 	position: relative;
-	width: 52%;
+	width: 45%;
 	flex: 0 0 auto;
 	min-height: 440px;
 }
@@ -2299,6 +2299,7 @@ label {
 }
 .services-details-thumb img {
 	border-radius: 10px;
+	height: 50rem;
 }
 .services-details-content > .title {
     font-weight: 600;
@@ -2401,10 +2402,39 @@ label {
 .service-benefits-wrap .benefits-img {
 	display: flex;
 	align-items: center;
-	justify-content: flex-end;
-	gap: 20px;
+	justify-content: center;
+	gap: 1rem;
+	margin-bottom: 2rem;
+
+}
+.service-benefits-wrap .roof-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	margin-bottom: 2rem;
+
+}
+.service-benefits-wrap .comm-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	margin-bottom: 2rem;
+
 }
 .service-benefits-wrap .benefits-img img {
+	border-radius: 10px;
+}
+.benefits-img img{
+	height: 16rem;
+}
+.roof-img img{
+	height: 30rem;
+	border-radius: 10px;
+}
+.comm-img img{
+	width: 16rem;
 	border-radius: 10px;
 }
 .services-widget {
@@ -5642,4 +5672,31 @@ label {
     border-radius: 50%;
     overflow: hidden;
     object-fit: cover;
+}
+.contact-stacked {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: auto;
+}
+
+.form-stk {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.form-stk input,
+.form-stk textarea {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+}
+
+.form-stk label {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
 }

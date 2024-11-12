@@ -25,7 +25,7 @@ export default function Banner1() {
         <>
             <section className="banner-area">
                 <div className="banner-shape" data-background="/assets/img/Water_Dro.jpg" />
-                <div className="banner-bg" data-background="/assets/img/banner/banner_bg.jpg">
+                <div className="banner-bg" data-background="/assets/img/Homefront.jpg">
                     <div className="banner-content">
                         <h2 className="title wow fadeInDown" data-wow-delay=".2s">Best Power Washing Services in the Greater Little Rock Area</h2>
                         <p className="wow fadeInUp" data-wow-delay=".2s">We can handle all of your residential or commercial exterior cleaning needs and more. </p>

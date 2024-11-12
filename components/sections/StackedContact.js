@@ -51,34 +51,24 @@ const ContactForm = () => {
 
 
     return (
-        <form onSubmit={sendEmail}>
-            <div className="row">
-                <div className="col-md-6">
-                    <div className="form-grp">
-                        <input name="name" type="text" placeholder="First Name" required />
-                        <label><i className="fas fa-user"></i></label>
-                    </div>
-                </div>
-                <div className="col-md-6">
-                    <div className="form-grp">
-                        <input name="lastName" type="text" placeholder="Last Name" required />
-                        <label><i className="fas fa-user"></i></label>
-                    </div>
-                </div>
-                <div className="col-md-6">
-                    <div className="form-grp">
-                        <input name="phone" type="text" placeholder="Phone Number" required />
-                        <label><i className="fas fa-phone-alt"></i></label>
-                    </div>
-                </div>
-                <div className="col-md-6">
-                    <div className="form-grp">
-                        <input name="email" type="email" placeholder="Email Address" required />
-                        <label><i className="fas fa-envelope"></i></label>
-                    </div>
-                </div>
+        <form onSubmit={sendEmail} className="contact-stacked">
+            <div className="form-stk">
+                <input name="name" type="text" placeholder="First Name" required />
+                <label><i className="fas fa-user"></i></label>
             </div>
-            <div className="form-grp">
+            <div className="form-stk">
+                <input name="lastName" type="text" placeholder="Last Name" required />
+                <label><i className="fas fa-user"></i></label>
+            </div>
+            <div className="form-stk">
+                <input name="phone" type="text" placeholder="Phone Number" required />
+                <label><i className="fas fa-phone-alt"></i></label>
+            </div>
+            <div className="form-stk">
+                <input name="email" type="email" placeholder="Email Address" required />
+                <label><i className="fas fa-envelope"></i></label>
+            </div>
+            <div className="form-stk">
                 <textarea name="message" placeholder="Message" required></textarea>
             </div>
             <button type="submit" className="btn">Submit Now</button>

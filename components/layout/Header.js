@@ -79,12 +79,16 @@ export default function Header({ headerCls, headerTop }) {
                                                 <li><Link href="/about">About us</Link></li>
                                                 <li className="menu-item-has-children"><Link href="/#">Services</Link>
                                                     <ul className="sub-menu">
-                                                        <li><Link href="/services">Services Page</Link></li>
-                                                        <li><Link href="/services-details">Services Details</Link></li>
-                                                        <li><Link href="/services-details">Services Details</Link></li>
-                                                        <li><Link href="/services-details">Services Details</Link></li>
-                                                        <li><Link href="/services-details">Services Details</Link></li>
-                                                        <li><Link href="/services-details">Services Details</Link></li>
+                                                        <li><Link href="/services">All Services</Link></li>
+                                                        <li><Link href="/homeWash">Residential Washing</Link></li>
+                                                        <li><Link href="/roof">Roof Cleaning</Link></li>
+                                                        <li></li>
+                                                        <li><Link href="/gutter">Gutter Cleaning</Link></li>
+                                                        <li>
+                                                        <Link href="/commercial">Commercial Services</Link></li>
+                                                        <li><Link href="/window">Window Washing</Link></li>
+                                                        <li><Link href="/concrete">Concrete Cleaning</Link></li>
+                                                        <li><Link href="/paint">Paint and Stain</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li className="menu-item-has-children"><Link href="/#">Before & After</Link>
