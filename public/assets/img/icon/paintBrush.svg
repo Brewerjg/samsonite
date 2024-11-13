@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="-2.5 0 64 64" fill="none">
+    <style type="text/css">
+        .st0 { fill: white; stroke: red; stroke-width: 0.2; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+    <g>
+        <rect x="12.7" y="2.4" class="st0" width="31.9" height="18.3"/>
+        <rect x="12.7" y="20.7" class="st0" width="31.9" height="6.9"/>
+        <path class="st0" d="M37.1,39.9h-17c-4.1,0-7.4-3.3-7.4-7.4v-4.8h31.9v4.8C44.5,36.5,41.2,39.9,37.1,39.9z"/>
+        <path class="st0" d="M28.6,61.7L28.6,61.7c-2.3,0-4.2-1.9-4.2-4.2V39.9h8.4v17.7C32.8,59.8,30.9,61.7,28.6,61.7z"/>
+        <line class="st0" x1="28.6" y1="2.4" x2="28.6" y2="15.5"/>
+        <line class="st0" x1="22.9" y1="2.4" x2="22.9" y2="15.5"/>
+        <line class="st0" x1="34.3" y1="2.4" x2="34.3" y2="15.5"/>
+        <line class="st0" x1="17.1" y1="2.4" x2="17.1" y2="15.5"/>
+        <line class="st0" x1="40.1" y1="2.4" x2="40.1" y2="15.5"/>
+    </g>
+</svg>

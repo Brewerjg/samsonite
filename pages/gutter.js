@@ -78,7 +78,7 @@ export default function ServiceDetails() {
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div className="services-widget widget-bg" data-background="/assets/img/services/sw_bg.jpg">
+                                        <div className="services-widget widget-bg" data-background="/assets/img/conClean.png">
                                             <h4 className="widget-title">Get a Free Quote</h4>
                                             <StackedContact />
                                         </div>

@@ -5,7 +5,7 @@ const PageHead = ({ headTitle }) => {
         <>
             <Head>
                 <title>
-                    {headTitle ? headTitle : "Samsonite Powerwashing and Painting"}
+                    {headTitle ? headTitle : "Samsonite Painting and More"}
                 </title>
             </Head>
         </>

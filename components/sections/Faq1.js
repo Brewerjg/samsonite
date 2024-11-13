@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Link from "next/link"
 export default function Faq1() {
     const [isActive, setIsActive] = useState({
         status: false,
@@ -44,24 +45,28 @@ export default function Faq1() {
                                     <div className="accordion-item">
                                         <h2 className="accordion-header" onClick={() => handleToggle(1)}>
                                             <button className={isActive.key == 1 ? "accordion-button" : "accordion-button collapsed "}>
-                                                How to install Exclusive Addons Plugin?
+                                            What is pressure washing?
                                             </button>
                                         </h2>
                                         <div className={isActive.key == 1 ? "accordion-collapse collapse  show" : "accordion-collapse collapse "}>
                                             <div className="accordion-body">
-                                                <p>As far as our Plugin is concerned, it works smoothly with all of the WordPress themes. But if you are looking for a clean, lightweight, minimal, and fully customizable WordPress theme for your site we recommend Credence.  multipurpose theme</p>
+                                                <p>Pressure washing uses high-pressure water to clean surfaces by removing dirt, grime, mold,
+                                                and other contaminants. It is commonly used on driveways, patios, roofs, and building exteriors.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="accordion-item">
                                         <h2 className="accordion-header" onClick={() => handleToggle(2)}>
                                             <button className={isActive.key == 2 ? "accordion-button" : "accordion-button collapsed "}>
-                                                Do you recommend any WordPress theme?
+                                            What is soft washing?
                                             </button>
                                         </h2>
                                         <div className={isActive.key == 2 ? "accordion-collapse collapse  show" : "accordion-collapse collapse "}>
                                             <div className="accordion-body">
-                                                <p>As far as our Plugin is concerned, it works smoothly with all of the WordPress themes. But if you are looking for a clean, lightweight, minimal, and fully customizable WordPress theme for your site we recommend Credence.  multipurpose theme</p>
+                                                <p>Soft washing is a low-pressure washing technique that uses specialized cleaning solutions to
+                                                safely remove dirt, mold, algae, and stains from delicate surfaces like roofs, siding, and painted
+                                                exteriors. Soft washing is effective for surfaces that could be damaged by high-pressure water,
+                                                making it a gentler alternative to traditional pressure washing.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -73,34 +78,46 @@ export default function Faq1() {
                                         </h2>
                                         <div className={isActive.key == 3 ? "accordion-collapse collapse  show" : "accordion-collapse collapse "}>
                                             <div className="accordion-body">
-                                                <p>As far as our Plugin is concerned, it works smoothly with all of the WordPress themes. But if you are looking for a clean, lightweight, minimal, and fully customizable WordPress theme for your site we recommend Credence.  multipurpose theme</p>
+                                                <p>Residential Pressure Washing: Driveways, patios, decks, siding, roofs, gutters, and more.<br/>
+                                                Commercial Pressure Washing: Storefronts, parking lots, sidewalks, building exteriors,
+                                                dumpster pads, and industrial equipment.<br/>
+                                                Soft Washing Services: Roofs, siding, fences, and any delicate or painted surfaces.<br/>
+                                                Specialty Services: Graffiti removal, oil stain removal, heavy equipment cleaning, and
+                                                post-construction clean-up.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="accordion-item">
                                         <h2 className="accordion-header" onClick={() => handleToggle(4)}>
                                             <button className={isActive.key == 4 ? "accordion-button" : "accordion-button collapsed "}>
-                                                How to install Exclusive Addons Plugin?
+                                            What’s the difference between pressure washing and soft washing?
                                             </button>
                                         </h2>
                                         <div className={isActive.key == 4 ? "accordion-collapse collapse  show" : "accordion-collapse collapse "}>
                                             <div className="accordion-body">
-                                                <p>As far as our Plugin is concerned, it works smoothly with all of the WordPress themes. But if you are looking for a clean, lightweight, minimal, and fully customizable WordPress theme for your site we recommend Credence.  multipurpose theme</p>
+                                                <p>Pressure washing uses high-pressure water to blast away dirt, which is effective on hard,
+                                                durable surfaces like concrete. Soft washing, on the other hand, uses a combination of low
+                                                pressure and eco-friendly cleaning solutions to gently clean more delicate surfaces, such as
+                                                roofs, vinyl siding, or wood, without causing damage.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="accordion-item">
                                         <h2 className="accordion-header" onClick={() => handleToggle(5)}>
                                             <button className={isActive.key == 5 ? "accordion-button" : "accordion-button collapsed "}>
-                                                How to install Exclusive Addons Plugin?
+                                            Is soft washing safe for my property?
                                             </button>
                                         </h2>
                                         <div className={isActive.key == 5 ? "accordion-collapse collapse  show" : "accordion-collapse collapse "}>
                                             <div className="accordion-body">
-                                                <p>As far as our Plugin is concerned, it works smoothly with all of the WordPress themes. But if you are looking for a clean, lightweight, minimal, and fully customizable WordPress theme for your site we recommend Credence.  multipurpose theme</p>
+                                                <p>Yes, soft washing is safe for most delicate surfaces. It is particularly ideal for surfaces that could
+                                                be damaged by the high-pressure spray of traditional pressure washing, such as roofs, painted
+                                                surfaces, and older wood. Soft washing effectively removes mold, algae, and stains without
+                                                harming the surface.</p>
                                             </div>
                                         </div>
                                     </div>
+                                    <Link href="/faq" className="btn">More FAQ</Link>
                                 </div>
                             </div>
                         </div>

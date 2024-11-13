@@ -22,12 +22,13 @@ export default function Footer1() {
                                         <h2 className="fw-title">Our Services</h2>
                                         <div className="footer-link">
                                             <ul className="list-wrap">
-                                                <li><Link href="/project"><i className="fas fa-angle-double-right" />House Washing</Link></li>
-                                                <li><Link href="/project"><i className="fas fa-angle-double-right" />Roof Cleaning</Link></li>
-                                                <li><Link href="/project"><i className="fas fa-angle-double-right" />Commercial Washing</Link></li>
-                                                <li><Link href="/project"><i className="fas fa-angle-double-right" />Gutter Cleaning</Link></li>
-                                                <li><Link href="/project"><i className="fas fa-angle-double-right" />Window Washing</Link></li>
-                                                <li><Link href="/project"><i className="fas fa-angle-double-right" />Concrete Cleaning</Link></li>
+                                                <li><Link href="/homeWash"><i className="fas fa-angle-double-right" />House Washing</Link></li>
+                                                <li><Link href="/roof"><i className="fas fa-angle-double-right" />Roof Cleaning</Link></li>
+                                                <li><Link href="/commercial"><i className="fas fa-angle-double-right" />Commercial Washing</Link></li>
+                                                <li><Link href="/gutter"><i className="fas fa-angle-double-right" />Gutter Cleaning</Link></li>
+                                                <li><Link href="/window"><i className="fas fa-angle-double-right" />Window Washing</Link></li>
+                                                <li><Link href="/concrete"><i className="fas fa-angle-double-right" />Concrete Cleaning</Link></li>
+                                                <li><Link href="/paint"><i className="fas fa-angle-double-right" />Paint and Stain</Link></li>
                                             </ul>
                                         </div>
                                     </div>

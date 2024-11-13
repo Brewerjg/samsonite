@@ -44,8 +44,9 @@ export default function About1() {
                                 <div className="about-list">
                                     <ul className="list-wrap">
                                         <li><i className="fas fa-check" />We offer expert pressure washing and painting services to residential and commercial properties.</li>
-                                        <li><i className="fas fa-check" />Removes tough stains and rejuvenates properties using top-quality equipment..</li>
+                                        <li><i className="fas fa-check" />Removes tough stains and rejuvenates properties using top-quality equipment.</li>
                                         <li><i className="fas fa-check" />Free estimates and transparent service with a focus on quality and customer satisfaction.</li>
+                                        
                                     </ul>
                                 </div>
                                 <Link href="/about" className="btn">Learn More</Link>

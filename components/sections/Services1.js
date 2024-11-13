@@ -131,7 +131,7 @@ export default function Services1() {
                         <div className="col-lg-4 col-md-6 col-sm-10">
                             <div className="services-item wow fadeInUp" data-wow-delay=".9s" data-background="/assets/img/duoPaint.png" onMouseEnter={() => handleToggle(7)} onMouseLeave={() => handleToggle(7)}>
                                 <div className="services-icon" style={{ display: `${isActive.key == 7 ? "none" : "flex"}` }}>
-                                    <img src="/assets/img/icon/duster.svg" alt="" />
+                                    <img src="/assets/img/icon/paintBrush.svg" alt="" />
                                 </div>
                                 <div className="services-content">
                                     <h2 className="title" style={{ display: `${isActive.key == 7 ? "none" : "block"}` }}><Link href="/paint">Paint & Stain Services</Link></h2>

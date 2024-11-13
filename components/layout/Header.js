@@ -30,7 +30,7 @@ export default function Header({ headerCls, headerTop }) {
                             <div className="col-xl-8 col-lg-9">
                                 <div className="header-top-left">
                                     <ul className="list-wrap">
-                                        <li>Samsonite Painting and Powerwashing</li>
+                                        <li>Samsonite Painting and More</li>
                                         <li><i className="fas fa-phone-alt" /><Link href="tel:5015339213">501-533-9213</Link></li>
                                         <li><i className="fas fa-envelope" /><Link href="mailto:samsonitepaintingandmore@gmail.com">samsonitepaintingandmore@gmail.com</Link></li>
                                     </ul>
@@ -68,14 +68,7 @@ export default function Header({ headerCls, headerTop }) {
                                         </div>
                                         <div className="navbar-wrap main-menu d-none d-lg-flex">
                                             <ul className="navigation">
-                                                <li className="active menu-item-has-children"><Link href="/#">Home</Link>
-                                                    <ul className="sub-menu">
-                                                        <li><Link href="/">Home One</Link></li>
-                                                        <li><Link href="/index-2">Home Two</Link></li>
-                                                        <li><Link href="/index-3">Home Three</Link></li>
-                                                        <li><Link href="/index-4">Home Four</Link></li>
-                                                    </ul>
-                                                </li>
+                                            <li><Link href="/">Home</Link></li>
                                                 <li><Link href="/about">About us</Link></li>
                                                 <li className="menu-item-has-children"><Link href="/#">Services</Link>
                                                     <ul className="sub-menu">
@@ -91,13 +84,14 @@ export default function Header({ headerCls, headerTop }) {
                                                         <li><Link href="/paint">Paint and Stain</Link></li>
                                                     </ul>
                                                 </li>
-                                                <li className="menu-item-has-children"><Link href="/#">Before & After</Link>
+                                                <li><Link href="/faq">FAQ</Link></li>
+                                                {/* <li className="menu-item-has-children"><Link href="/#">Before & After</Link>
                                                     <ul className="sub-menu">
                                                         <li><Link href="/project">Project Page</Link></li>
                                                         <li><Link href="/project-details">Project Details</Link></li>
                                                         
                                                     </ul>
-                                                </li>
+                                                </li> */}
                                                 {/* <li className="menu-item-has-children"><Link href="/#">Blog</Link>
                                                     <ul className="sub-menu">
                                                         <li><Link href="/blog">Our Blog</Link></li>
