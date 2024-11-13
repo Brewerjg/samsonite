@@ -103,7 +103,7 @@ export default function Header({ headerCls, headerTop }) {
                                         </div>
                                         <div className="header-action d-none d-md-block">
                                             <ul className="list-wrap">
-                                                <li className="header-btn"><Link href="/contact" className="btn">Get a Quoute</Link></li>
+                                                <li className="header-btn"><Link href="/contact" className="btn">Free Quote</Link></li>
                                             </ul>
                                         </div>
                                     </nav>
