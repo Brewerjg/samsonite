@@ -73,7 +73,7 @@ export default function Faq1() {
                                     <div className="accordion-item">
                                         <h2 className="accordion-header" onClick={() => handleToggle(3)}>
                                             <button className={isActive.key == 3 ? "accordion-button" : "accordion-button collapsed "}>
-                                                How to install Exclusive Addons Plugin?
+                                            What services do you offer?
                                             </button>
                                         </h2>
                                         <div className={isActive.key == 3 ? "accordion-collapse collapse  show" : "accordion-collapse collapse "}>
