@@ -19,7 +19,7 @@ const ContactForm = () => {
         const serviceID = process.env.YOUR_SERVICE_ID;
         const templateID = process.env.YOUR_TEMPLATE_ID;
 
-        emailjs.init('ly3LSPpd-ZHWfZUj9');
+        emailjs.init('ZxZCehbwFxnkrLoH5');
 
         const formData = {
             name: e.target.name.value,
@@ -30,8 +30,8 @@ const ContactForm = () => {
         };
 
         emailjs.send(
-            "service_a2jed5e",
-            "template_6o9bmn4",
+            "service_atjadee",
+            "template_2qphh5c",
             formData,
             "ly3LSPpd-ZHWfZUj9"
         ).then(
