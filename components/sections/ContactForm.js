@@ -30,10 +30,10 @@ const ContactForm = () => {
         };
 
         emailjs.send(
-            "service_atjadee",
+            "service_3f4a3wc",
             "template_2qphh5c",
             formData,
-            "ly3LSPpd-ZHWfZUj9"
+            "ZxZCehbwFxnkrLoH5"
         ).then(
             (response) => {
                 alert("Form submitted successfully!");
