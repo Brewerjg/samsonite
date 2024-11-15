@@ -1,5 +1,4 @@
-// pages/sitemap.xml.js
-import { getServerSideProps } from 'next';
+
 
 export const getServerSideProps = async ({ res }) => {
   const baseUrl = 'https://spmpsolutions.com';
