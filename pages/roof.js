@@ -1,11 +1,13 @@
 import Layout from "@/components/layout/Layout"
-import Brand3 from "@/components/sections/Brand3"
+import { Head } from "next/document"
 import Link from "next/link"
 import StackedContact from "@/components/sections/StackedContact"
 export default function ServiceDetails() {
 
     return (
+        
         <>
+            
             <Layout breadcrumbTitle="Roof Cleaning">
                 <div>
                     <section className="services-details-area pt-120">
@@ -14,7 +16,7 @@ export default function ServiceDetails() {
                                 <div className="col-xl-8">
                                     <div className="services-details-wrap">
                                         <div className="services-details-thumb">
-                                            <img src="/assets/img/roofBnA.png" alt="" />
+                                            <img src="/assets/img/roofBnA.png" alt="Roof Cleaning, Roof Cleaning Services, Little Rock, Benton, Bryant, Searcy, Conway" />
                                         </div>
                                         <div className="services-details-content">
                                             <h2 className="title">The BEST Roof Cleaning Services in Central Arkansas. You can trust that Samsonite Painting & More will go above and beyond to meet all our customers expectations.
@@ -30,7 +32,7 @@ export default function ServiceDetails() {
                                                 <div className="row">
                                                     <div className="col-lg-7 order-0 order-lg-2">
                                                         <div className="roof-img">
-                                                            <img src="/assets/img/shingles.png" alt="" />
+                                                            <img src="/assets/img/shingles.png" alt="Roof Cleaning, Roof Cleaning Services, Little Rock, Benton, Bryant, Searcy, Conway" />
  
                                                         </div>
                                                     </div>

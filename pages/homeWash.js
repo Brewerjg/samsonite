@@ -14,7 +14,7 @@ export default function ServiceDetails() {
                                 <div className="col-xl-8">
                                     <div className="services-details-wrap">
                                         <div className="services-details-thumb">
-                                            <img src="/assets/img/gray_clean.png" alt="" />
+                                            <img src="/assets/img/gray_clean.png" alt="Residential Pressure Washing, House Washing Services, Little Rock, Benton, Bryant, Searcy, Conway" />
                                         </div>
                                         <div className="services-details-content">
                                             <h2 className="title">The BEST House Washing Services serving Little Rock, Benton, Bryant, Searcy, and Conway.</h2>
@@ -29,8 +29,8 @@ export default function ServiceDetails() {
                                                 <div className="row">
                                                     <div className="col-lg-7 order-0 order-lg-2">
                                                         <div className="benefits-img">
-                                                            <img src="/assets/img/Wbefore.png" alt="" />
-                                                            <img src="/assets/img/Wafter.png" alt="" />
+                                                            <img src="/assets/img/Wbefore.png" alt="Residential Pressure Washing, House Washing Services, Little Rock, Benton, Bryant, Searcy, Conway" />
+                                                            <img src="/assets/img/Wafter.png" alt="Residential Pressure Washing, House Washing Services, Little Rock, Benton, Bryant, Searcy, Conway" />
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-5 mb-30">

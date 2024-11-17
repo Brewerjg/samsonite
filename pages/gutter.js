@@ -14,7 +14,7 @@ export default function ServiceDetails() {
                                 <div className="col-xl-8">
                                     <div className="services-details-wrap">
                                         <div className="services-details-thumb">
-                                            <img src="/assets/img/gutterCleaning.png" alt="" />
+                                            <img src="/assets/img/gutterCleaning.png" alt="Gutter Cleaning Services, Central Arkansas, Little Rock, Benton, Bryant, Searcy, Conway" />
                                         </div>
                                         <div className="services-details-content">
                                             <h2 className="title">The BEST Gutter Cleaning Service serving Little Rock, Benton, Bryant, Searcy, and Conway.</h2>
@@ -43,7 +43,7 @@ export default function ServiceDetails() {
                                                 <div className="row">
                                                     <div className="col-lg-7 order-0 order-lg-2">
                                                         <div className="roof-img">
-                                                            <img src="/assets/img/gutters.png" alt="" />
+                                                            <img src="/assets/img/gutters.png" alt="Gutter Cleaning Services, Central Arkansas, Little Rock, Benton, Bryant, Searcy, Conway" />
                                                         
                                                         </div>
                                                     </div>

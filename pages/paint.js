@@ -14,7 +14,7 @@ export default function ServiceDetails() {
                                 <div className="col-xl-8">
                                     <div className="services-details-wrap">
                                         <div className="services-details-thumb">
-                                            <img src="/assets/img/proPaint.png" alt="" />
+                                            <img src="/assets/img/proPaint.png" alt="Painting and Staining Services, Little Rock, Benton, Bryant, Searcy, Conway, painting services in Arkansas, staining services in Arkansas" />
                                         </div>
                                         <div className="services-details-content">
                                             <h2 className="title">The BEST Painting and Staining Services serving Little Rock, Benton, Bryant, Searcy, and Conway.</h2>
@@ -25,7 +25,7 @@ export default function ServiceDetails() {
                                                 <div className="row">
                                                     <div className="col-lg-7 order-0 order-lg-2">
                                                         <div className="roof-img">
-                                                            <img src="/assets/img/duoPaint.png" alt="" />
+                                                            <img src="/assets/img/duoPaint.png" alt="Painting and Staining Services, Little Rock, Benton, Bryant, Searcy, Conway, painting services in Arkansas, staining services in Arkansas" />
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-5 mb-30">
@@ -52,7 +52,7 @@ export default function ServiceDetails() {
                                                 <div className="row">
                                                     <div className="col-lg-7 order-0 order-lg-2">
                                                         <div className="roof-img">
-                                                            <img src="/assets/img/exPaint.png" alt="" />
+                                                            <img src="/assets/img/exPaint.png" alt="Painting and Staining Services, Little Rock, Benton, Bryant, Searcy, Conway, painting services in Arkansas, staining services in Arkansas" />
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-5 mb-30">

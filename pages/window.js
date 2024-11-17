@@ -14,7 +14,7 @@ export default function ServiceDetails() {
                                 <div className="col-xl-8">
                                     <div className="services-details-wrap">
                                         <div className="services-details-thumb">
-                                            <img src="/assets/img/windowScrub.png" alt="" />
+                                            <img src="/assets/img/windowScrub.png" alt="window washing, window cleaning,window cleaning services, Little Rock, Benton, Bryant, Searcy, Conway, Arkansas" />
                                         </div>
                                         <div className="services-details-content">
                                             <h2 className="title">The BEST Window Washing Services serving Little Rock, Benton, Bryant, Searcy, and Conway.</h2>
@@ -30,7 +30,7 @@ export default function ServiceDetails() {
                                                 <div className="row">
                                                     <div className="col-lg-7 order-0 order-lg-2">
                                                         <div className="benefits-img">
-                                                            <img src="/assets/img/windowSpray.png" alt="" />
+                                                            <img src="/assets/img/windowSpray.png" alt="window washing, window cleaning,window cleaning services, Little Rock, Benton, Bryant, Searcy, Conway, Arkansas" />
                                                         
                                                         </div>
                                                     </div>

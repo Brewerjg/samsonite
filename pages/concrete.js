@@ -14,7 +14,7 @@ export default function ServiceDetails() {
                                 <div className="col-xl-8">
                                     <div className="services-details-wrap">
                                         <div className="services-details-thumb">
-                                            <img src="/assets/img/driveCleaning.png" alt="" />
+                                            <img src="/assets/img/driveCleaning.png" alt="Pressure Washing Services, Concrete Cleaning Services, Little Rock, Benton, Bryant, Searcy, Conway" />
                                         </div>
                                         <div className="services-details-content">
                                             <h2 className="title">The BEST Concrete Washing Services serving Little Rock, Benton, Bryant, Searcy, and Conway.</h2>
@@ -26,7 +26,7 @@ export default function ServiceDetails() {
                                                 <div className="row">
                                                     <div className="col-lg-7 order-0 order-lg-2">
                                                         <div className="roof-img">
-                                                            <img src="/assets/img/conClean.png" alt="" />
+                                                            <img src="/assets/img/conClean.png" alt="Pressure Washing Services, Concrete Cleaning Services, Little Rock, Benton, Bryant, Searcy, Conway" />
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-5 mb-30">
@@ -45,7 +45,7 @@ export default function ServiceDetails() {
                                                 <div className="row">
                                                     <div className="col-lg-7 order-0 order-lg-2">
                                                         <div className="roof-img">
-                                                            <img src="/assets/img/sidewalkBnA.png" alt="" />
+                                                            <img src="/assets/img/sidewalkBnA.png" alt="Pressure Washing Services, Concrete Cleaning Services, Little Rock, Benton, Bryant, Searcy, Conway" />
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-5 mb-30">
