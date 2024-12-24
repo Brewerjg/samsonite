@@ -37,7 +37,7 @@ export default function About1() {
                             <div className="about-content">
                                 <div className="section-title mb-25 tg-heading-subheading animation-style3">
                                     <span className="sub-title tg-element-title">About Our Company</span>
-                                    <h2 className="title tg-element-title">We’re Committed to Roofing Excellence</h2>
+                                    <h2 className="title tg-element-title">We’re Committed to Excellence</h2>
                                    
                                 </div>
                                 <p>Samsonite Painting & More, LLC in Little Rock offers professional pressure washing and painting services to enhance both residential and commercial properties. Their skilled team specializes in removing tough stains like oil, grease, mold, and mildew to restore the pristine condition of homes and businesses. In addition to pressure washing, Samsonite provides high-quality, affordable painting services to refresh and elevate the look of any property, with free estimates and a commitment to transparent, reliable service.</p>
