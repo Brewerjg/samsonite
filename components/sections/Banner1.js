@@ -27,7 +27,7 @@ export default function Banner1() {
                 <div className="banner-shape" data-background="/assets/img/Water_Dro.jpg" />
                 <div className="banner-bg" data-background="/assets/img/Homefront.jpg">
                     <div className="banner-content">
-                        <h2 className="title wow fadeInDown" data-wow-delay=".2s">Best Painting & Power Washing Services in the Greater Little Rock Area</h2>
+                        <h2 className="title wow fadeInDown" data-wow-delay=".2s">Best Painting & Pressure Washhing Services in the Greater Little Rock Area</h2>
                         <p className="wow fadeInUp" data-wow-delay=".2s">We can handle all of your residential or commercial exterior cleaning needs and more.
                         </p>
                         <Link href="/services" className="btn wow fadeInUp" data-wow-delay=".4s">Discover More</Link>
